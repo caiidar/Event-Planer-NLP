@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/activity_2.xml" value="0.240625" />
         <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/layout/activity_activtiy_loading.xml" value="0.1234375" />
-        <entry key="app/src/main/res/layout/activity_confirm.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_confirm.xml" value="0.2390625" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.2390625" />
         <entry key="app/src/main/res/layout/activity_loading.xml" value="0.2390625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -45,7 +45,7 @@
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home2.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_news.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/layout/fragment_news2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.24166666666666667" />
@@ -63,6 +63,7 @@
         <entry key="app/src/main/res/layout/nav_header_second.xml" value="0.1" />
         <entry key="app/src/main/res/layout/space_horizontal.xml" value="0.2390625" />
         <entry key="app/src/main/res/layout/space_vertical.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/spacevertical.xml" value="0.2390625" />
         <entry key="app/src/main/res/menu/activity_main2_drawer.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/menu/activity_second_drawer.xml" value="0.30885416666666665" />

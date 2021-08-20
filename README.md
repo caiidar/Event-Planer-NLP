@@ -10,7 +10,7 @@ Preview:
 
 
 
-How to install:
+# How to install the frontend:
 1. Download our eventme.apk
 2. Install the eventme.apk
 3. Open the app

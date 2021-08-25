@@ -3,13 +3,14 @@ from PIL import Image
 import io, os
 from google.cloud import vision
 import datefinder
-from commonregex import CommonRegex
+
 
 
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']=r'eventme-318812-c378b2f19c9b.json'
 app = Flask(__name__)
-result = []
+date= ""
+result = {}
 
 
 @app.route("/imgt", methods=["POST", "GET"])
@@ -30,11 +31,12 @@ def process_image():
         text = response.text_annotations[0].description
 
         dates = datefinder.find_dates(text)
-        for date in dates: 
-            result= result + [str(date)]
-        
-        parsed_text = CommonRegex(text)
-        result= result+parsed_text.street_addresses
+        for data in dates: 
+             date= str(data) 
+        result.update({ "date": date  })
+
+    
+   
 
         
       

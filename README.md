@@ -6,7 +6,8 @@ In our research we found several many calendar or event planning applications. N
 This is the backend of EventMe.
 We used Flask as a way to create a simple web application, as it does not require particular tools or libraries.  
 We deployed that application to Heroku which is a cloud platform using containers to run our application on a virtual environment. We tested different iterations of the application using separate containers, pushing our code directly from GitHub. 
-The most important task of our backend is the image processing for this we used Google Cloud Vision. It is a powerful and reliable API that analyses images via deep learning. Vast quantities of training data provided from Google makes it better than most similar APIs
+The most important task of our backend is the image processing for this we used Google Cloud Vision. It is a powerful and reliable API that analyses images via deep learning. Vast quantities of training data provided from Google makes it better than most similar APIs.
+You can find our code in the Backend branch.
 # Frontend:
 This is the frontend of EventMe. Here you are going to get the .apk file directly above to install our app. We used Android Studio and recommend opening with Android Studio. Android Studio has a very own way managing files so its shows the best structure possible. Please use the FrontEnd branch to download the project. The layout file show how we structured our app and the java files hold all of our functionallity.
 Preview:

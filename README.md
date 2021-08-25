@@ -1,7 +1,10 @@
 # Event-Me-NLP
-
-# Front End:
-This is the frontend of EventMe. Here you are going to get the eventme.apk file directly above to install our app. We used Android Studio and recommend opening with Android Studio. Android Studio has a very own way managing files so its shows the best structure possible. Please use the FrontEnd branch to download the project. The layout file show how we structured our app and the java files hold all of our functionallity.
+# What is EventMe?
+The first idea for our application was given through partyholic. Our Main idea was to create an application to help one organising and not forgetting an event seen on e.g. an advertisement. Basically the application shall use a new picture taken or from the gallery and analyse any text on it. We are specifically looking for dates and a related location for the event.
+In our research we found several many calendar or event planning applications. None of them were for event management in that way we designed our to help manage and organize them e.g. connecting the app with one's Google calendar and instantly adding the event. The way our application sets events and finds the information is seemingly the only one at the moment. Thus it appears we found a gap in the market. After talking to one another and figuring out how we wanted the application to work we arranged us with what was to do. So we started EventMe.
+# Backend:
+# Frontend:
+This is the frontend of EventMe. Here you are going to get the .apk file directly above to install our app. We used Android Studio and recommend opening with Android Studio. Android Studio has a very own way managing files so its shows the best structure possible. Please use the FrontEnd branch to download the project. The layout file show how we structured our app and the java files hold all of our functionallity.
 Preview:
 
 ![Bildschirmfoto 2021-08-19 um 20 22 24](https://user-images.githubusercontent.com/83280365/130123522-2dd86204-306c-4336-9876-62f1a99927a6.png)
@@ -11,8 +14,8 @@ Preview:
 
 
 # How to install the frontend:
-1. Download our eventme.apk
-2. Install the eventme.apk
+1. Download our .apk file
+2. Install the .apk
 3. Open the app
 4. Agree to all permissions (camera, gallery, calender)
 5. Snap a picture of an event or open the gallery

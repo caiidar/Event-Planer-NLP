@@ -11,7 +11,7 @@ For the image processing we used Google Cloud Vision. It is a powerful and relia
 You can find our code in the backend branch. 
 If you want to run the backend code on your machine you will need a Google Cloud account.
 You also need to activate the Cloud Vision API and create a service key which should be saved in the same folder as the code.
-Lastly you need to install everything specified in the requirements.txt
+Lastly you need to install everything specified in the requirements.txt.
 
 # Frontend:
 This is the frontend of EventMe. Here you are going to get the .apk file directly above to install our app. We used Android Studio and recommend opening with Android Studio. Android Studio has a very own way managing files so its shows the best structure possible. Please use the FrontEnd branch to download the project. The layout file show how we structured our app and the java files hold all of our functionallity.

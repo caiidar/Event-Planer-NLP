@@ -5,10 +5,14 @@ The first idea for our application was given through partyholic. Our Main idea w
 In our research we found several many calendar or event planning applications. None of them were for event management in that way we designed our to help manage and organize them e.g. connecting the app with one's Google calendar and instantly adding the event. The way our application sets events and finds the information is seemingly the only one at the moment. Thus it appears we found a gap in the market. After talking to one another and figuring out how we wanted the application to work we arranged us with what was to do. So we started working on EventMe.
 # Backend:
 This is the backend of EventMe.
-We used Flask as a way to create a simple web application, as it does not require particular tools or libraries.  
-We deployed that application to Heroku which is a cloud platform using containers to run our application on a virtual environment. We tested different iterations of the application using separate containers, pushing our code directly from GitHub. 
-The most important task of our backend is the image processing for this we used Google Cloud Vision. It is a powerful and reliable API that analyses images via deep learning. Vast quantities of training data provided from Google makes it better than most similar APIs.
-You can find our code in the Backend branch.
+We used Flask as a way to create a simple web application.  
+We deployed that application to Heroku which is a cloud platform using containers to run our application on a virtual environment. 
+For the image processing we used Google Cloud Vision. It is a powerful and reliable API that analyses images via deep learning. Vast quantities of training data provided from Google makes it better than most similar APIs.
+You can find our code in the backend branch. 
+If you want to run the backend code on your machine you will need a Google Cloud account.
+You also need to activate the Cloud Vision API and create a service key which should be saved in the same folder as the code.
+Lastly you need to install everything specified in the requirements.txt
+
 # Frontend:
 This is the frontend of EventMe. Here you are going to get the .apk file directly above to install our app. We used Android Studio and recommend opening with Android Studio. Android Studio has a very own way managing files so its shows the best structure possible. Please use the FrontEnd branch to download the project. The layout file show how we structured our app and the java files hold all of our functionallity.
 Preview:
